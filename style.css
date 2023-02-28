@@ -1,0 +1,157 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+.container{
+    width: 1140px;
+    /* padding: 0px 100px; */
+    margin: 0px auto;
+}
+
+                                /* NAV__QISMI */
+
+
+.nav-top{
+    width: 100%;
+    background-color: #FAFAFA;
+    padding: 7px 298px;
+    margin: 0px auto;
+    
+}
+.nav-one{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+                                /* HEADER__QISMI */
+
+
+.heder-list{
+    background-image: url(./img/Frame\ 7\ 1.jpg);
+    
+}
+.header__wrapper{
+     background: rgba(152, 185, 238, 0.3);
+}
+.header__top{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.ul-nav li{
+    list-style: none;
+    margin: 10px 15px 0px;
+    width: 83px ;
+    height: 100px;
+    background-color: #FFFFFF;
+    /* padding: 0px 5px; */
+    
+}
+.big-img{
+    margin-top: 6px;
+    height: 540px;
+    width: 490px;
+    background-color:#FFFFFF;
+    padding: 15px;
+    border-radius: 0px 15px 15px 0px;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    
+}
+.header-one>h2 {
+    height: 51px;
+    width: 322px;
+    left: 1012px;
+top: 79px;
+
+}
+.header__wrapper span{
+    margin: 25px 15px 75px;
+}
+
+.header__list{
+    padding-top: 25px;
+    width: 250px;
+    height: 77px;
+}
+
+.header-one>h1,h2{
+    /* font-weight: 700; */
+    letter-spacing: 1px;
+    color: #041A3F;
+    
+}
+.header-one>h3{
+    color: #F7BD29;
+    width: 254px;
+    height: 45px;
+    padding-top: 5px;
+    font-weight: 700;
+    font-size: 32px;
+    margin: 5px 0px 15px;
+}
+
+.header-one>button{
+    width: 258px;
+    height: 48px;
+    background-color: #F7BD29;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.header-one h4{
+    width: 254px;
+    height: 30px;
+    padding-top: 5px;
+    font-weight: 700;
+    font-size: 23px;
+    margin: 5px 0px 15px;
+}
+.header-one>p{
+    margin: 15px 0px 15px;
+    color: #041A3FCC;
+    font-size: 15px;
+}
+
+
+
+                            /*SECTION___QISMI  */
+
+
+.section{
+    background: rgba(152, 185, 238, 0.3);
+    padding: 50px 40px 20px 15px;
+}
+
+.section>h2{
+    width: 133px;
+    height: 29px;
+    margin: 25px 0px;
+}
+
+.section>p{
+    color: #041A3FCC ;
+    font-size: 15px;
+}
+
+
+                                /* FOOTER____QISMI */
+                            
+
+footer{
+    height: 50px;
+    width: 100%;
+    background-color: #fafafa;
+    padding: 7px 250px;
+    margin: 0px auto;
+}
